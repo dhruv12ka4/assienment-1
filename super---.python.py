@@ -1,24 +1,4 @@
-#if 'a' in 'apple':
-#    print('1')
-#    print('2')
-#    print('3')
-#else:
-#    print('a is present')
-#
-#number = 5
-#message = "Even" if number % 2 == 0 else "odd"
-#print(message)
-#
-# Check character is vovel or not
-
-#char = input('Enter a character : ')
-#vovel = "aeiou"
-#
-#if char in vovel:
-#    print('yes it is vovel')
-#else:
-#    print('yes it is not vovel')
-
+solutoin 1
 
 # Fibonacci sequence seris
 
@@ -31,24 +11,25 @@ while num1 < 50:
     num1 = num2
     num2 = num3
     
+solution 3
 
+list = [1,2,3,4,5,6,7,8,9]
+even = 0
+odd = 0
+for i in list:
+    if(i%2==0):
+        even=even+1
+    else:
+        odd=odd+1
 
-#list = [1,2,3,4,5,6,7,8,9]
-#even = 0
-#odd = 0
-#for i in list:
-#    if(i%2==0):
-#        even=even+1
-#    else:
-#        odd=odd+1
-#
-#print("Even number in list",even)
-#print("Odd number in list",odd)
-#
-#
-#a = input("Enter a string:")
-#for word in a.split():
-#    print(word[::-1],end=" ")
+print("Even number in list",even)
+print("Odd number in list",odd)
+
+solution 2
+
+a = input("Enter a string:")
+for word in a.split():
+    print(word[::-1],end=" ")
 
 
 
